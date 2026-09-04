@@ -1,0 +1,13 @@
+[project]
+name = "langchain-hello"
+version = "0.1.0"
+description = "Minimal LangChain hello-world example"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain",
+    "openai",
+]
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
